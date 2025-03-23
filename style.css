@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(179, 138, 255, 0.589);
+}
+nav {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    position: flex;
+    padding-bottom: 20px;
+    background-color: rgb(159, 108, 255);
+    max-width: 550px;
+    height: 650px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.74);
+}
+h1{
+    text-align: center;
+    font-size: 2.8em;
+    padding-top: 20px;
+    color: azure;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.678);
+    margin-bottom: 20px;
+}
+.labels{
+    text-align: left;
+    font-size: 1.7em;
+    padding-top: 15px;
+    color: azure;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.678);
+}
+.inputs{
+    width: 40%;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    border: 2px solid #0000009c;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-top: 7px;
+}
+button{
+    position: absolute; 
+    bottom: 30px; 
+    left: 50%; /* Yatay eksende ortala */
+    transform: translateX(-50%); /* Butonu tam ortaya getir */
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 185, 255);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.267);
+    font-size: 1.8em;
+    cursor: pointer;
+    background-color: rgb(191, 157, 253);
+    color: #fffffff8;
+}
+button:hover{
+    background-color: rgb(171, 128, 252);
+    color: #ffffff;
+}
+#result_text{
+    display: block;
+    text-align: center;
+    font-size: 1.7em;
+    padding-top: 15px;
+    color: azure;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.678);
+}
+br, button, h1{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}

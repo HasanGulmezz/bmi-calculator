@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vücut Kitle İndeksi</title>
+    <link rel="stylesheet" href="style.css"></head>
+</head>
+<body>
+    <nav>
+        <h1>Vücut Kitle İndeksi Hesaplayıcı</h1>
+        <label class="labels">Boy: (cm)</label><br>
+        <input type="number" id="height_input" class="inputs" placeholder="Ör: 195" oninput="javascript: if (this.value.length > 3) this.value = this.value.slice(0,3)">
+        <br><label class="labels">Kilo: (kg)</label><br>
+        <input type="number" id="weight_input" class="inputs" placeholder="Ör: 95" oninput="javascript: if (this.value.length > 3) this.value = this.value.slice(0,3)">
+        <br><label class="labels">Yaş:</label><br>
+        <input type="number" id="age_input" class="inputs" placeholder="Ör: 20" oninput="javascript: if (this.value.length > 2) this.value = this.value.slice(0,2)">
+        <button type="button" id="calculate_button" onclick="calculate()">Hesapla</button>
+        <br><label id="result_text"></label>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
